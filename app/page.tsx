@@ -7,10 +7,12 @@ export default function Home() {
   return (
     <main>
       <Header />
-      <Spacing size="md" />
-      <Hero />
-      <Spacing size="md" />
-      <Status />
+      <div className="flex">
+        <Spacing size="md" />
+        <Hero />
+        <Spacing size="md" />
+        <Status />
+      </div>
     </main>
   );
 }

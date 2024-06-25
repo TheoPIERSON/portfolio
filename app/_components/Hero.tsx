@@ -17,7 +17,14 @@ const Code = ({ className, ...props }: ComponentPropsWithRef<"span">) => {
 
 export const Hero = () => {
   return (
-    <Section className="flex max-lg:flex-col items-start gap-4">
+    <Section className="flex max-lg:flex-col gap-4 m-5 mt-52 items-center">
+      <div className="flex-2 max-md:m-auto ml-auto">
+        <img
+          src="https://avatars.githubusercontent.com/u/130555127?v=4"
+          alt="Theo's picture"
+          className="w-50 h-auto rounded-full max-w-xs max-md:w-56"
+        />
+      </div>
       <div className="flex-[3] w-full flex flex-col gap-2">
         <h2 className="font-caption text-5xl text-primary font-bold">Theo Pierson</h2>
         <h3 className="text-3xl font-caption">Software developper and stuff.</h3>
@@ -35,13 +42,6 @@ export const Hero = () => {
           </Code>
           .
         </p>
-      </div>
-      <div className="flex-2 max-md:m-auto ml-auto">
-        <img
-          src="https://avatars.githubusercontent.com/u/130555127?v=4"
-          alt="Theo's picture"
-          className="w-full h-auto rounded-full max-w-xs max-md:w-56"
-        />
       </div>
     </Section>
   );
