@@ -17,7 +17,7 @@ const Code = ({ className, ...props }: ComponentPropsWithRef<"span">) => {
 
 export const Hero = () => {
   return (
-    <Section className="flex max-lg:flex-col gap-4 m-5 mt-52 items-center">
+    <Section className="flex max-lg:flex-col gap-4 m-5 mt-7 md:mt-52 items-center">
       <div className="flex-2 max-md:m-auto ml-auto">
         <img
           src="https://avatars.githubusercontent.com/u/130555127?v=4"

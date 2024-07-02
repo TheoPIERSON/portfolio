@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <main>
       <Header />
-      <div className="flex">
+      <div className="grid md:flex">
         <Spacing size="md" />
         <Hero />
         <Spacing size="md" />
