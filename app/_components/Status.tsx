@@ -22,7 +22,7 @@ export const Status = () => {
         <a className="block" href="https://onyx-institut.vercel.app/">
           <Card className="w-full p-4 flex items-center gap-2">
             <Image className="w-10" alt="Onyx Institut logo" src={OnyxLogo} />
-            <span>Nails Technician website</span>
+            <span>Onyx Institut</span>
           </Card>
         </a>
       </div>
