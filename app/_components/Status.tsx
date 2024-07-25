@@ -37,7 +37,7 @@ export const Status = () => {
       <div>
         <a className="block" href="https://rose-nail.vercel.app/">
           <Card className="w-full p-4 flex items-center gap-2">
-            <Image className="w-10 bg-slate-200 rounded" alt="WAT I READ logo" src={RoseNail} />
+            <Image className="w-10" alt="WAT I READ logo" src={RoseNail} />
             <span> Rose Nail</span>
           </Card>
         </a>
