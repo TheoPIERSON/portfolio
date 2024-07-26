@@ -6,6 +6,7 @@ import DadJokeLogo from "@/app/assets/images/icon.png";
 import OnyxLogo from "@/app/assets/images/logo.png";
 import WatIRead from "@/app/assets/images/watiread.png";
 import RoseNail from "@/app/assets/images/rosenail.png";
+import Mighty from "@/app/assets/images/mighty-coaching.png";
 
 export const Status = () => {
   return (
@@ -37,8 +38,16 @@ export const Status = () => {
       <div>
         <a className="block" href="https://rose-nail.vercel.app/">
           <Card className="w-full p-4 flex items-center gap-2">
-            <Image className="w-10" alt="WAT I READ logo" src={RoseNail} />
+            <Image className="w-10" alt="Rose Nail logo" src={RoseNail} />
             <span> Rose Nail</span>
+          </Card>
+        </a>
+      </div>
+      <div>
+        <a className="block" href="https://mighty-coaching.vercel.app/">
+          <Card className="w-full p-4 flex items-center gap-2">
+            <Image className="w-10" alt="Mighty logo" src={Mighty} />
+            <span> Mighty Coaching</span>
           </Card>
         </a>
       </div>
