@@ -12,14 +12,6 @@ export const Status = () => {
   return (
     <Section className="grid grid-cols-1 md:grid-cols-2 gap-10">
       <div>
-        <a className="block" href="https://dad-s-joke-nu.vercel.app/">
-          <Card className="w-full p-4 flex items-center gap-2">
-            <Image className="w-10" alt="Dad's joke logo" src={DadJokeLogo} />
-            <span>Dad Joke randomizer</span>
-          </Card>
-        </a>
-      </div>
-      <div>
         <a className="block" href="https://onyx-institut.vercel.app/">
           <Card className="w-full p-4 flex items-center gap-2">
             <Image className="w-10" alt="Onyx Institut logo" src={OnyxLogo} />
@@ -27,6 +19,23 @@ export const Status = () => {
           </Card>
         </a>
       </div>
+      <div>
+        <a className="block" href="https://mighty-coaching.vercel.app/">
+          <Card className="w-full p-4 flex items-center gap-2">
+            <Image className="w-10" alt="Mighty logo" src={Mighty} />
+            <span> Mighty Coaching</span>
+          </Card>
+        </a>
+      </div>
+      <div>
+        <a className="block" href="https://dad-s-joke-nu.vercel.app/">
+          <Card className="w-full p-4 flex items-center gap-2">
+            <Image className="w-10" alt="Dad's joke logo" src={DadJokeLogo} />
+            <span>Dad Joke randomizer</span>
+          </Card>
+        </a>
+      </div>
+
       <div>
         <a className="block" href="https://wat-i-read.vercel.app/">
           <Card className="w-full p-4 flex items-center gap-2">
@@ -40,14 +49,6 @@ export const Status = () => {
           <Card className="w-full p-4 flex items-center gap-2">
             <Image className="w-10" alt="Rose Nail logo" src={RoseNail} />
             <span> Rose Nail</span>
-          </Card>
-        </a>
-      </div>
-      <div>
-        <a className="block" href="https://mighty-coaching.vercel.app/">
-          <Card className="w-full p-4 flex items-center gap-2">
-            <Image className="w-10" alt="Mighty logo" src={Mighty} />
-            <span> Mighty Coaching</span>
           </Card>
         </a>
       </div>
