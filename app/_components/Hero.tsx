@@ -29,17 +29,9 @@ export const Hero = () => {
         <h2 className="font-caption text-5xl text-primary font-bold">Theo Pierson</h2>
         <h3 className="text-3xl font-caption">Software developper and stuff.</h3>
         <p className="text-base">
-          I love <Code>learning</Code> and <Code>creating</Code>. I also try to create apps sometimes. <br />
+          I love <Code>learning</Code> and <Code>creating</Code>. I also try to build apps sometimes. <br />
           Currently learning <Code>NextJS</Code>
-          and will place all my Next apps here. Living in{" "}
-          <Code className="inline-flex items-center gap-1">
-            <img
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Flag_of_France_%281794%E2%80%931815%2C_1830%E2%80%931974%29.svg/110px-Flag_of_France_%281794%E2%80%931815%2C_1830%E2%80%931974%29.svg.png"
-              alt="France's flag"
-              style={{ width: 16, height: "auto" }}
-            />
-            France
-          </Code>
+          and will place all my Next apps here. Living in <Code className="inline-flex items-center gap-1">France</Code>
           .
         </p>
       </div>
