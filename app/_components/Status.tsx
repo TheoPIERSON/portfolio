@@ -7,10 +7,19 @@ import OnyxLogo from "@/app/assets/images/logo.png";
 import WatIRead from "@/app/assets/images/watiread.png";
 import RoseNail from "@/app/assets/images/rosenail.png";
 import Mighty from "@/app/assets/images/mighty-coaching.png";
+import ChefPro from "@/app/assets/images/chef-pro.png";
 
 export const Status = () => {
   return (
     <Section className="grid grid-cols-1 md:grid-cols-2 gap-10">
+      <div>
+        <a className="block" href="https://chef-pro-360.vercel.app/">
+          <Card className="w-full p-4 flex items-center gap-2">
+            <Image className="w-10" alt="Chef-pro-360 logo" src={ChefPro} />
+            <span>Chef Pro 360</span>
+          </Card>
+        </a>
+      </div>
       <div>
         <a className="block" href="https://onyx-institut.vercel.app/">
           <Card className="w-full p-4 flex items-center gap-2">
