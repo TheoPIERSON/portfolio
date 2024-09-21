@@ -21,7 +21,7 @@ export const Status = () => {
         </a>
       </div>
       <div>
-        <a className="block" href="https://onyx-institut.vercel.app/">
+        <a className="block" href="https://onyx-institut.com/">
           <Card className="w-full p-4 flex items-center gap-2">
             <Image className="w-10" alt="Onyx Institut logo" src={OnyxLogo} />
             <span>Onyx Institut</span>
