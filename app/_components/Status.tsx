@@ -8,7 +8,20 @@ import WatIRead from "@/app/assets/images/watiread.png";
 import RoseNail from "@/app/assets/images/rosenail.png";
 import Mighty from "@/app/assets/images/mighty-coaching.png";
 import ChefPro from "@/app/assets/images/chef-pro.png";
+import { cn } from "@/lib/utils";
+import { ComponentPropsWithRef } from "react";
 
+const Code = ({ className, ...props }: ComponentPropsWithRef<"span">) => {
+  return (
+    <span
+      className={cn(
+        "bg-accent/50 border hover:bg-accent/70 border-accent p-1 text-primary font-mono rounded-sm",
+        className
+      )}
+      {...props}
+    />
+  );
+};
 export const Status = () => {
   return (
     <Section className="grid grid-cols-1 md:grid-cols-2 gap-10">
@@ -19,6 +32,9 @@ export const Status = () => {
             <span>Chef Pro 360</span>
           </Card>
         </a>
+        <h1 className="mt-2">
+          <Code>NextJs</Code>
+        </h1>
       </div>
       <div>
         <a className="block" href="https://onyx-institut.com/">
@@ -27,6 +43,11 @@ export const Status = () => {
             <span>Onyx Institut</span>
           </Card>
         </a>
+        <h1 className="mt-2">
+          <Code>Angular</Code>
+          <span> </span>
+          <Code>SpringBoot</Code>
+        </h1>
       </div>
       <div>
         <a className="block" href="https://mighty-coaching.vercel.app/">
@@ -35,6 +56,9 @@ export const Status = () => {
             <span> Mighty Coaching</span>
           </Card>
         </a>
+        <h1 className="mt-2">
+          <Code>Angular</Code>
+        </h1>
       </div>
       <div>
         <a className="block" href="https://dad-s-joke-nu.vercel.app/">
@@ -43,6 +67,9 @@ export const Status = () => {
             <span>Dad Joke randomizer</span>
           </Card>
         </a>
+        <h1 className="mt-2">
+          <Code>NextJs</Code>
+        </h1>
       </div>
 
       <div>
@@ -52,6 +79,9 @@ export const Status = () => {
             <span> Wat I Read</span>
           </Card>
         </a>
+        <h1 className="mt-2">
+          <Code>NextJs</Code>
+        </h1>
       </div>
       <div>
         <a className="block" href="https://rose-nail.vercel.app/">
@@ -60,6 +90,9 @@ export const Status = () => {
             <span> Rose Nail</span>
           </Card>
         </a>
+        <h1 className="mt-2">
+          <Code>Angular</Code>
+        </h1>
       </div>
     </Section>
   );

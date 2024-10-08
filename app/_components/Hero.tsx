@@ -26,13 +26,19 @@ export const Hero = () => {
         />
       </div>
       <div className="flex-[3] w-full flex flex-col gap-2">
-        <h2 className="font-caption text-5xl text-primary font-bold">Theo Pierson</h2>
-        <h3 className="text-3xl font-caption">Software developper and stuff.</h3>
+        <h1 className="font-caption text-5xl text-primary font-bold">Theo Pierson</h1>
+        <h2 className="text-3xl font-caption">Développeur web.</h2>
+        <h2 className="text-3xl font-caption">Développeur Frontend.</h2>
+
         <p className="text-base">
-          I love <Code>learning</Code> and <Code>creating</Code>. I also try to build apps sometimes. <br />
-          Currently learning <Code>NextJS</Code>
-          and will place all my Next apps here. Living in <Code className="inline-flex items-center gap-1">France</Code>
-          .
+          Bonjour, je m'appelle <Code>Theo</Code> et je suis <Code>développeur web</Code> situé dans le nord de la
+          France. Ce site me sert de <Code>portfolio</Code>
+          et vous permet de visualiser mes création en cliquant sur les <Code>icônes</Code>. <br /> J'aime apprendre et
+          créer et je me ferais un plaisir de vous aider où que vous soyez, le travaille à distance ne me pose aucun
+          problème! <br />
+          Actuellement je travaille avec <Code>NuxtJS</Code> mais je suis également à l'aise avec les autres frameworks
+          JavaScript comme <Code>Angular</Code> ou <Code>NextJs</Code>. Je suis également à l'aise avec{" "}
+          <Code>JAVA</Code> et son framework <Code>SpringBoot</Code>.
         </p>
       </div>
     </Section>
