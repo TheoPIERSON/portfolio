@@ -31,13 +31,13 @@ export const Hero = () => {
         <h2 className="text-3xl font-caption">Développeur Frontend.</h2>
 
         <p className="text-base">
-          Bonjour, je m'appelle <Code>Theo</Code> et je suis <Code>développeur web</Code> situé dans le nord de la
+          Bonjour, je m&apos;appelle <Code>Theo</Code> et je suis <Code>développeur web</Code> situé dans le nord de la
           France. Ce site me sert de <Code>portfolio</Code>
-          et vous permet de visualiser mes création en cliquant sur les <Code>icônes</Code>. <br /> J'aime apprendre et
-          créer et je me ferais un plaisir de vous aider où que vous soyez, le travaille à distance ne me pose aucun
-          problème! <br />
-          Actuellement je travaille avec <Code>NuxtJS</Code> mais je suis également à l'aise avec les autres frameworks
-          JavaScript comme <Code>Angular</Code> ou <Code>NextJs</Code>. Je suis également à l'aise avec{" "}
+          et vous permet de visualiser mes création en cliquant sur les <Code>icônes</Code>. <br /> J&apos;aime
+          apprendre et créer et je me ferais un plaisir de vous aider où que vous soyez, le travaille à distance ne me
+          pose aucun problème! <br />
+          Actuellement je travaille avec <Code>NuxtJS</Code> mais je suis également à l&apos;aise avec les autres
+          frameworks JavaScript comme <Code>Angular</Code> ou <Code>NextJs</Code>. Je suis également à l&apos;aise avec{" "}
           <Code>JAVA</Code> et son framework <Code>SpringBoot</Code>.
         </p>
       </div>
