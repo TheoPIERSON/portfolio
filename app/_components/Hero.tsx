@@ -21,7 +21,7 @@ export const Hero = () => {
       <div className="flex-2 max-md:m-auto ml-auto">
         <img
           src="https://avatars.githubusercontent.com/u/130555127?v=4"
-          alt="Theo's picture"
+          alt="Theo pierson, développeur web à Lestrem"
           className="w-50 h-auto rounded-full max-w-xs max-md:w-56"
         />
       </div>
@@ -32,7 +32,7 @@ export const Hero = () => {
 
         <p className="text-base">
           Bonjour, je m&apos;appelle <Code>Theo</Code> et je suis <Code>développeur web</Code> situé dans le nord de la
-          France. Ce site me sert de <Code>portfolio</Code>
+          France à Lestrem. Ce site me sert de <Code>portfolio</Code>
           et vous permet de visualiser mes création en cliquant sur les <Code>icônes</Code>. <br /> J&apos;aime
           apprendre et créer et je me ferais un plaisir de vous aider où que vous soyez, le travaille à distance ne me
           pose aucun problème! <br />
